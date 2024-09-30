@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio Fitness</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: relative;
+        }
+        nav {
+            display: inline-block;
+            position: relative;
+        }
+        .dropdown {
+            display: inline-block;
+            position: relative;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+            color: #007BFF;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        main {
+            padding: 20px;
+        }
+        h2 {
+            color: #007BFF;
+        }
+        .bio {
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Gimnasio Fitness</h1>
+    <nav>
+        <div class="dropdown">
+            <button class="dropbtn">Menú</button>
+            <div class="dropdown-content">
+                <a href="#">Inicio</a>
+                <a href="#">Actividades</a>
+                <a href="#">Horarios</a>
+                <a href="#">Contáctanos</a>
+            </div>
+        </div>
+    </nav>
+    <p>Tu lugar para ponerte en forma</p>
+</header>
+
+<main>
+    <section class="bio">
+        <h2>Biografía</h2>
+        <p>En Gimnasio Fitness, nos dedicamos a fomentar un estilo de vida saludable y activo. Ofrecemos una variedad de clases y entrenamientos personalizados para adaptarnos a las necesidades de todos nuestros miembros.</p>
+        <p>Nuestro equipo de entrenadores está comprometido a brindarte el apoyo necesario para alcanzar tus metas de fitness, ya sea que busques perder peso, ganar masa muscular o simplemente mantenerte activo.</p>
+    </section>
+
+    <img src="foto.jfif" alt="Gimnasio Fitness">
+
+    <section class="social-links">
+        <h2>Síguenos</h2>
+        <a href="https://www.facebook.com/tu-gimnasio" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/tu-gimnasio" target="_blank">Instagram</a>
+        <a href="https://www.twitter.com/tu-gimnasio" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com/in/tu-gimnasio" target="_blank">LinkedIn</a>
+    </section>
+</main>
+
+</body>
+</html>
